@@ -1,0 +1,28 @@
+{
+  "name": "porter",
+  "version": "0.0.8",
+  "description": "A service desgined to stream http / https served binary data to many different storage types",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Luidog@github.com/Luidog/porter.git"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "Lui de la Parra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luidog/porter/issues"
+  },
+  "homepage": "https://github.com/Luidog/porter#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "axios-cookiejar-support": "^0.4.2",
+    "node-stream": "^1.7.0",
+    "tough-cookie": "^2.4.3"
+  }
+}
